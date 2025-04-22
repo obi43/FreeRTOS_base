@@ -66,7 +66,7 @@ int main()
     vTaskStartScheduler();
 
 
-// We shall newer ratch this point, but is we do then stay in an endless loop
+// We shall newer ratch this point, but if we do then stay in an endless loop
 fatalError:
     for (;;)
         ;
