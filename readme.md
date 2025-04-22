@@ -19,6 +19,7 @@ Or alternatively do it manually like this:
     set(FREERTOS_KERNEL_PATH  ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel CACHE STRING "" FORCE )
     include(FreeRTOS_Kernel_import.cmake)
     ```
+And add FreeRTOS-Kernel-Heap4 to your target_link_libraries
 
 ## FreeRTOS API reference
 
